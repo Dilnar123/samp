@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang>
+
+<head>
+    <meta charset="utf-8">
+    <title>ROCKET RP</title>
+    <meta name="description" content>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content>
+    <meta property="og:type" content>
+    <meta property="og:url" content>
+    <meta property="og:image" content>
+
+    <!--  <link rel="manifest" href="site.webmanifest">-->
+    <link rel="icon" href="fonts/logo.svg">
+    <link rel="apple-touch-icon" href="fonts/logo.svg">
+
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/responsive.min.css">
+
+    <meta name="theme-color" content="#66cdaa">
+</head>
+
+<body>
+
+    <header>
+        <div class="content_">
+            <a href="/" class="logo"><img src="images/logo.png" alt></a>
+            <div class="mobile_menu">
+                <span></span>
+            </div>
+            <div class="nav">
+                <a href="/">Главная</a>
+                <a href="/shop.html" class="active">Магазин</a>
+                <a href>Вконтакте</a>
+                <a href>Форум</a>
+            </div>
+            <div class="online">
+                <div class="text">
+
+                    <b>o</b>nline
+                </div>
+
+                <div class="value">
+                    <img src="images/user%20%283%29.png" alt> 1,000
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="shop">
+        <div class="content_">
+            <div class="title_section">
+                Магазин
+            </div>
+            <form action>
+                <div class="server_select">
+                    <div class="label">Выберите сервер</div>
+                    <div class="list_server">
+                        <div class="server active" data-server="1">1</div>
+                        <div class="server" data-server="2">2</div>
+                        <div class="server" data-server="3">3</div>
+                    </div>
+                </div>
+                <input type="hidden" name="server" value="1">
+                <img src="images/save.png" alt class="picture" style="pointer-events: none;">
+                <div class="form">
+                    <div class="form_wrap">
+                        <label for>Ваш игровой никнейм</label>
+                        <div class="input_wrap">
+                            <img src="images/user%20%284%29.png" alt class="icon">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="form_wrap">
+                        <label for>Ваш e-mail адрес</label>
+                        <div class="input_wrap">
+                            <img src="images/email%20%281%29.png" alt class="icon">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="form_wrap">
+                        <label for>Сумма пополнения</label>
+                        <div class="input_wrap">
+                            <img src="images/ruble-currency-sign.png" alt class="icon">
+                            <input type="sum">
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+            <div class="block_result">
+                <div class="title">вы получите</div>
+                <div class="value">₽ 1000</div>
+            </div>
+            <div class="footer">
+                <div class="desc" style="position: relative;z-index: 4;">Нажимая "Пополнить" вы соглашаетесь <br> с <a href="/sogl.pdf">Пользовательским соглашением</a> <br>и <a href="/conf.pdf">Политикой конфиденциальности</a></div>
+                <div class="btn">Пополнить</div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
